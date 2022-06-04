@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Pregunta 01",
+      "setup": "docker pull jdvelasq/pig:classroom",
+      "run": "python3 pregunta_01/test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
